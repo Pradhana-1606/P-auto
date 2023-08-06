@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 1201px) {
+    .carousel-inner {
+        height: 500px;
+    }
+
+    .carousel-inner .carousel-item img {
+        object-position: 0 -210px;
+    }
+
+    .carousel-inner .two img {
+        object-position: 0 -270px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+    .carousel-inner {
+        max-height: 320px;
+        min-height: 300px;
+    }
+
+    .carousel-inner .carousel-item img {
+        object-position: 0 -110px;
+    }
+
+    .carousel-inner .two img {
+        object-position: 0 -130px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+    .carousel-inner {
+        max-height: 300px;
+    }
+
+    .carousel-inner .carousel-item img {
+        object-position: 0 -10px;
+    }
+
+    .carousel-inner .two img {
+        object-position: 0 -30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .carousel-inner {
+        max-height: 200px;
+    }
+
+    .carousel-inner .carousel-item img {
+        object-position: 0 -10px;
+    }
+
+    .carousel-inner .two img {
+        object-position: 0 -30px;
+    }
+}
+
+.judul {
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.text-indent {
+    text-indent: 2em;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #222;
+    /* Ganti dengan warna yang diinginkan */
+    color: #ffffff;
+    /* Ganti dengan warna teks yang sesuai */
+}
+
+.kiri p, .kanan p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kiri p span, .kanan p span {
+    font-weight: bold;
+}
+
+.kanan {
+    margin-left: 50px;
+}
